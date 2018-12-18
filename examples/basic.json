@@ -1,0 +1,14 @@
+{
+  "type": "Firebase.Wrapper.Config",
+  "props": {
+    "config": {
+      "databaseURL": "https://rndm-com.firebaseio.com"
+    },
+    "children": {
+      "type": "Firebase.Element",
+      "props": {
+        "reference": "example"
+      }
+    }
+  }
+}
