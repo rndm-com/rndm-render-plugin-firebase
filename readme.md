@@ -96,7 +96,7 @@ Any Component that extends the Base Component should have three methods:
 ```javascript
 import React from 'react';
 import { Text } from 'react-native';
-import { Base } from '@rndm/render-plugin-firebase;
+import { Base } from '@rndm/render-plugin-firebase';
 
 class FirebaseNotifier extends Base {
     constructor(props) {
