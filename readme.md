@@ -16,7 +16,7 @@ npm install --save @rndm/render-plugin-firebase
 
 ### Post Installation
 
-In order to allow this plugin to work, it must first be included in your project. You can do this inside yout main index file:
+In order to allow this plugin to work, it must first be included in your project. You can do this inside your main index file:
 
 ```javascript
 import '@rndm/render-plugin-firebase';
@@ -24,7 +24,7 @@ import '@rndm/render-plugin-firebase';
 
 ## Usage
 
-The Firebase Plugin includes a number of Components to be accessed within your application. Some of these components are JSON describables, whilst others are created to allow integration with the Firebase system.
+The Firebase Plugin includes a number of Components to be accessed within your application. Some of these components are JSON describable, whilst others are created to allow integration with the Firebase system.
 
 ### Components
 
@@ -55,7 +55,7 @@ The above example, when run through the renderer, will initialise an application
 
 ### Element
 
-Once the Firebase application has been initilised, it is possible to render further API information supplied by a reference.
+Once the Firebase application has been initialised, it is possible to render further API information supplied by a reference.
 
 **Example**
 
@@ -89,7 +89,7 @@ Any Component that extends the Base Component should have three methods:
 
 - *updateReference()*: This method tells the Component what to do should the reference or name be updated
 - *onValue()*: This method will tell the Component what it should do upon an update to the reference data
-- *offValue()*: This method will tell the Component what it should do upon stopping listenting to the reference
+- *offValue()*: This method will tell the Component what it should do upon stopping listening to the reference
 
 **Example**
 
