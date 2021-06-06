@@ -1,6 +1,6 @@
 {
   "name": "@rndm/render-plugin-firebase",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "src/index.js",
   "author": "RNDM",
   "license": "Apache-2.0",
@@ -15,6 +15,6 @@
     "url": "https://github.com/rndm-com/rndm-render-plugin-firebase/issues"
   },
   "dependencies": {
-    "firebase": "^5.0.1"
+    "firebase": "^8.6.2"
   }
 }
